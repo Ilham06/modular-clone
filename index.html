@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+  <script>
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            myBlack: '#0a0a0a',
+            myGrey: '#ffffffa3'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <nav class="py-12 px-24 fixed w-full">
+    <div class="container mx-auto">
+      <div class="flex justify-between">
+        <div class="flex">
+          <a href="/" class="active">Home 01</a>
+          <a href="/">Home 02</a>
+          <a href="#work">Work</a>
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="flex">
+          <a href="">Tw</a>
+          <a href="">Ln</a>
+          <a href="">Md</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container mx-auto">
+      <section id="hero">
+        <h1 class="text-[80px] font-extrabold leading-[92px]">Hello — I'm Dan. <br>
+          A New York-based <br>
+          Product Designer.</h1>
+        <p class="text-2xl mt-10 leading-[36px] text-stone-400">I design digital products combining a user-centered <br>
+          approach aligned with a solid product strategy.</p>
+      </section>
+
+      <section id="work">
+        <div class="work-card">
+          <div class="image">
+            <img width="100%" src="images/work-01.webp" alt="">
+          </div>
+          <div class="information grid grid-cols-12 mt-12 gap-10">
+            <div class="col-span-4 text-4xl font-medium">
+              Modular Arch
+            </div>
+            <div class="col-span-4 text-sm text-stone-400 pr-19">
+              Excitingly collaborating with architects and designers on this architecture studio project as a UX
+              designer. Our user-centered designs transform spaces and enhance the human experience with innovative
+              solutions.
+            </div>
+            <div class="col-span-3 text-sm px-8">
+              <div class="flex justify-between mb-1">
+                <p>Role</p>
+                <p class="text-stone-400">Product Designer</p>
+              </div>
+              <div class="flex justify-between mb-1">
+                <p>Project</p>
+                <p class="text-stone-400">Website Redesign</p>
+              </div>
+              <div class="flex justify-between">
+                <p>Year</p>
+                <p class="text-stone-400">2022 - 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="number">
+            01
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="image">
+            <img width="100%" src="images/work-02.webp" alt="">
+          </div>
+          <div class="information grid grid-cols-12 mt-12 gap-10">
+            <div class="col-span-4 text-4xl font-medium">
+              Zero Bikes
+            </div>
+            <div class="col-span-4 text-sm text-stone-400 pr-19">
+              As a UX designer, I designed a landing page for ZERO BIKES' new model, ZERO-12. The goal was to showcase
+              the bike's features and increase sales.
+            </div>
+            <div class="col-span-3 text-sm px-8">
+              <div class="flex justify-between mb-1">
+                <p>Role</p>
+                <p class="text-stone-400">Product Designer</p>
+              </div>
+              <div class="flex justify-between mb-1">
+                <p>Project</p>
+                <p class="text-stone-400">App Redesign</p>
+              </div>
+              <div class="flex justify-between">
+                <p>Year</p>
+                <p class="text-stone-400">2022 - 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="number">
+            02
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="image">
+            <img width="100%" src="images/work-03.webp" alt="">
+          </div>
+          <div class="information grid grid-cols-12 mt-12 gap-10">
+            <div class="col-span-4 text-4xl font-medium">
+              Copenhagen
+            </div>
+            <div class="col-span-4 text-sm text-stone-400 pr-19">
+              This project focused on the city of Copenhagen and aimed to improve the website's usability issues, while
+              also introducing a seamless checkout workflow to increase conversion rates.
+            </div>
+            <div class="col-span-3 text-sm px-8">
+              <div class="flex justify-between mb-1">
+                <p>Role</p>
+                <p class="text-stone-400">Product Designer</p>
+              </div>
+              <div class="flex justify-between mb-1">
+                <p>Project</p>
+                <p class="text-stone-400">App Redesign</p>
+              </div>
+              <div class="flex justify-between">
+                <p>Year</p>
+                <p class="text-stone-400">2022 - 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="number">
+            03
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="pt-[250px] pb-[100px]">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-end">
+        <h1 class="font-extrabold text-[80px] leading-[86px]">Let's work <br>
+          together.</h1>
+
+        <div class="flex">
+          <a href="" class="active">hey@youremail.design</a>
+          <a href="">Linkedin</a>
+          <a href="">Twitter</a>
+          <a href="">Medium</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
